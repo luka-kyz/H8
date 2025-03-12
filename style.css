@@ -14,4 +14,12 @@ h3 {
   .text-box > p.yellow {
     color: yellow;
   }
-  
+.day:nth-child(1) { background-color: palevioletred; } /* Понедельник, первй список */
+.day:nth-child(2) { background-color: greenyellow; } /* Вторник, второй список */
+.day:nth-child(3) { background-color: royalblue; } /* Среда, воторой список */
+.day:nth-child(4) { background-color: seagreen; } /* Четверг, еще список */
+.day:nth-child(5) { background-color: skyblue; }   /* Пятниа, последний список*/
+
+.day li:nth-child(1) { color: red; }   /* Первый урок красненький */
+.day li:nth-child(2) { color: blue; }  /* Второй синий */
+.day li:nth-child(3) { color: violet; } /* Третий фиолетовый*/
